@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <header>
+            <h1>Calculadora de equações de segundo grau</h1>
+        </header>
+        <main>
+            <span>A: <input type="text" name="" id="a"></span>
+            <span>B: <input type="text" name="" id="b"></span>
+            <span>C: <input type="text" name="" id="c"></span>
+            <span><button onclick="calcular()">Calcular</button></span>
+            <div id="resultado" style="display: none;">
+                <h1>Resultado: </h1>
+                <p id="x1">X' =</p>
+                <p id="x2">X'' =</p>
+            </div>
+            <script src="script.js"></script>
+        </main>
+    </div>
+</body>
+</html>

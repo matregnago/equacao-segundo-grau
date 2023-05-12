@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background: rgb(18, 18, 20);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+.content {
+    border: 1px solid purple;
+    border-radius: 10px;
+    width: fit-content;
+    margin-top: 7%;
+}
+header{
+    padding: 3%;
+}
+
+header h1 {
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    color: white;
+}
+
+input {
+    padding: 1%;
+    margin: 0.5%;
+    border: 1px solid black;
+}
+button {
+    margin: 2% 0;
+    padding: 1%;
+    border-radius: 5px;
+    color: white;
+    background: purple;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+button:hover {
+    background: violet;
+}
+
+#resultado {
+    color: white;
+    margin-bottom: 3%;
+
+}
+#resultado p {
+    font-size: 25px;
+}
